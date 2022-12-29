@@ -1,0 +1,16 @@
+input,
+textarea {
+    width: 300px;
+}
+textarea {
+    height: 100px;
+}
+button {
+    width: 60px;
+}
+#editor td:first-child {
+    text-align: right;
+}
+#id {
+    font-weight: bold;
+}

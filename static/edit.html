@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flashpoint Metadata Editor</title>
+        <link rel="stylesheet" href="metaeditor.css">
+        <script defer src="edit.js"></script>
+    </head>
+    <body>
+        <h1>Flashpoint Metadata Editor</h1>
+        
+        <table id="editor">
+            <tr>
+                <td>ID: </td>
+                <td id="id"></td>
+            </tr>
+            <tr>
+                <td>Title: </td>
+                <td><input id="title"></td>
+            </tr>
+            <tr>
+                <td>Alternate Titles: </td>
+                <td><input id="alternate-titles"></td>
+            </tr>
+            <tr>
+                <td>Series: </td>
+                <td><input id="series"></td>
+            </tr>
+            <tr>
+                <td>Developer: </td>
+                <td><input id="developer"></td>
+            </tr>
+            <tr>
+                <td>Publisher: </td>
+                <td><input id="publisher"></td>
+            </tr>
+            <tr>
+                <td>Tags: </td>
+                <td><input id="tags"></td>
+            </tr>
+            <tr>
+                <td>Platform: </td>
+                <td><input id="platform"></td>
+            </tr>
+            <tr>
+                <td>Play Mode: </td>
+                <td><input id="play-mode"></td>
+            </tr>
+            <tr>
+                <td>Status: </td>
+                <td><input id="status"></td>
+            </tr>
+            <tr>
+                <td>Notes: </td>
+                <td><textarea id="notes"></textarea></td>
+            </tr>
+            <tr>
+                <td>Source: </td>
+                <td><input id="source"></td>
+            </tr>
+            <tr>
+                <td>Release Date: </td>
+                <td><input id="release-date"></td>
+            </tr>
+            <tr>
+                <td>Version: </td>
+                <td><input id="version"></td>
+            </tr>
+            <tr>
+                <td>Original Description: </td>
+                <td><textarea id="original-description"></textarea></td>
+            </tr>
+            <tr>
+                <td>Language: </td>
+                <td><input id="language"></td>
+            </tr>
+        </table>
+        
+        <br>
+        <button id="save">Save</button>
+        <button id="back">Back</button>
+    </body>
+</html>
