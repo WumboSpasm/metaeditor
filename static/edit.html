@@ -39,19 +39,33 @@
             </tr>
             <tr>
                 <td>Tags: </td>
-                <td><input id="tags"></td>
+                <td>
+                    <select id="tags-select"></select><button id="tags-select-add">Add</button>
+                    <br>
+                    <input id="tags-show-franchises" type="checkbox"> Show franchise tags
+                    <input id="tags-show-nsfw" type="checkbox"> Show NSFW tags
+                    <div id="tags-list"></div>
+                </td>
             </tr>
             <tr>
                 <td>Platform: </td>
-                <td><input id="platform"></td>
+                <td><select id="platform-select"></select></td>
             </tr>
             <tr>
                 <td>Play Mode: </td>
-                <td><input id="play-mode"></td>
+                <td>
+                    <select id="play-mode-select"></select><button id="play-mode-select-add">Add</button>
+                    <br>
+                    <div id="play-mode-list"></div>
+                </td>
             </tr>
             <tr>
                 <td>Status: </td>
-                <td><input id="status"></td>
+                <td>
+                    <select id="status-select"></select><button id="status-select-add">Add</button>
+                    <br>
+                    <div id="status-list"></div>
+                </td>
             </tr>
             <tr>
                 <td>Version: </td>
@@ -59,7 +73,9 @@
             </tr>
             <tr>
                 <td>Release Date: </td>
-                <td><input id="release-date"></td>
+                <td>
+                    <input style="width:10.5ch" maxlength="10" placeholder="YYYY-MM-DD" id="release-date">
+                </td>
             </tr>
             <tr>
                 <td>Language: </td>

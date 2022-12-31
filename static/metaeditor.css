@@ -1,12 +1,15 @@
-input,
+h1 {
+    margin-top: 0;
+}
+input:not([type]),
 textarea {
     width: 300px;
 }
 textarea {
     height: 100px;
 }
-button {
-    width: 56px;
+td {
+    padding-bottom: 4px;
 }
 #editor td:first-child {
     text-align: right;
